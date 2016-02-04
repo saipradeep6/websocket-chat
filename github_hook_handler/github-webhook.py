@@ -12,7 +12,7 @@ def github_payload():
         payload = request.get_json()
         if payload['commits'][0]['distinct'] == True:
             try:
-                output = subprocess.Popen('python gitpull.py'.split(), stdout=subprocess.PIPE).communicate()[0]
+                output = subprocess.Popen('python C:\\Users\\Pradeep\\Desktop\\gitpull.py'.split(), stdout=subprocess.PIPE).communicate()[0]
                 print(output)
                 return jsonify({'msg': 'Push Event Successful'})
 
