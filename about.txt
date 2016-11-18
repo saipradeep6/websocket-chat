@@ -1,3 +1,0 @@
-This is the Web-Socket Chatting Application.
-Users can chat here with their name.
-
