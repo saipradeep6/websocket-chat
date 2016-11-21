@@ -2,12 +2,10 @@ A Chat room built using WebSockets. Additionally there is a bot used speaking on
 
 - WebSocket connections.
 - Advanced usage of Akka.
-<<<<<<< HEAD
-=======
 - New WebSocket Chat Application.
 - Edited Line 6
 - Edited Line 7
 - Edited Line 8
 - Edited Line 9
 - Edited Line 10
->>>>>>> c5393fce0325f3e02527493c590a65e6e72ce339
+- Added Line 11
