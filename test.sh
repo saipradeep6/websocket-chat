@@ -1,5 +1,5 @@
 if git log --stat  -1 | grep 'README'; then
-    echo "File Found....Proceed to next process"
+    play test
 else
     exit 3
 fi
