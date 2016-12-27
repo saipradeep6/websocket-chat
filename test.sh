@@ -2,7 +2,7 @@
 
 if git log --stat -1 | grep -E 'test.sh'; then
     play compile
-    exit
+    exit 3
 elif ! git log --stat -1 | grep -E 'test.sh'; then
     play test
 else
